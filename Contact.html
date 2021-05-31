@@ -1,0 +1,106 @@
+
+
+
+<!DOCTYPE html>
+<html lang="cs-cz">
+    <head>
+        <meta charset="utf-8">
+            <link rel="stylesheet" href="styl.css" type="text/css" >
+            <link rel = "stylesheet" href="Contact.css" type="text/css">
+            <script src="js/zpráva.js"></script>
+            
+        <title>
+            <h1>Crazy_Game</h1>
+            <script>
+              <Headers />
+            </script>
+        </title>
+    </head>
+<body>
+    
+    <article>
+        <header>
+            <div class="pretekani">
+            <img src="AssetWebsite/LOGOWEB@2x.png" class="logo">
+            <h1>crazy game plus</h1>
+            </div>
+
+
+
+            <div class="scrollmenu">
+            <a href="index.html">Úvod</a>
+                <a href="About.html">Hry</a>
+                <a href="Contact.html">Kontakt</a> 
+              </div>
+        </header>
+
+        <section>
+            
+            <div class="kontaktobdelnik">
+                
+                <p class="contact">Kontakt:</p>
+                <div class="kontakty">
+                <div class="email"><a href="https://mail.google.com/"><img class="emailimg" src="AssetWebsiteContact/Icon material-email.png" width="40px" height="30px"> <p class="emailtext"> e-mail: crazy.game@gmail.com </p></a></div>
+
+                <div class="instagram"> <a href="https://www.instagram.com/crazy_game_plus/"><img class="instagramimg" src="AssetWebsiteContact/Icon awesome-instagram-1.png" width="40px" height="40px"> <p class="instagramtext">instagram</p></a></div>
+
+                <div class="twitter"><a href = "https://twitter.com/?lang=cs"><img class="twitterimg" src="AssetWebsiteContact/Icon awesome-twitter-1.png" width="40px" height="40px"> <p class="twittertext">twitter</p></a></div>
+
+                <div class="twitch"><a href = "https://www.twitch.tv/klack0man"><img class="twitchimg" src="AssetWebsiteContact/Icon awesome-twitch.png" width="35px" height="40px"> <p class="twitchtext">twitch.tv</p></a></div>
+
+                <div class="youtube"><img class="youtubeimg" src="AssetWebsiteContact/Icon awesome-youtube.png" width="40px" height="30px"> <p class="youtubetext">youtube</p></div>
+
+               
+                </div>
+                
+            </div>
+                <img src="AssetWebsiteContact/LOGOWEB.png" class="kontaktlogo" width="600" height="600">
+
+
+            <div class="formular" style="clear: both;">
+                <form action="connect.php" name="frmContact" method="POST">
+                <div class="jmeno">
+                    <label class="labeljmeno" for="uname"><b>VAŠE JMÉNO</b></label>
+                            <input class="inputjmeno" type="text" placeholder="vaše jmeno..." name="txtName" id="txtName" required>
+                </div>
+
+                <div class="divemail">
+                    <label class="labelemail" for="email"><b>VÁŠ E-MAIL</b></label>
+                            <input class="inputemail" type="email" placeholder="váš e-mail..." name="txtEmail" id="txtEmail" required>
+                </div>
+
+                <div class="divzprava">
+                    <label class="labelzprava" for="text"><b>VAŠE ZPRÁVA</b></label>
+                    
+                            
+                            <textarea  class="inputzprava" name="txtMessage" id="txtMessage" type="text" required></textarea>                                
+                </div>
+                <div class="buttontext">¨
+                    
+                        <input class="buttonmessage" type="submit" value="ODESLAT" name="Submit" id="Submit" onclick="msg()">
+                      </form>
+                </div>
+
+            </div>
+            
+        </section>
+
+        <footer>
+            <div class="footer" style="clear: both;">
+              <img class="footerimg" src="AssetWebsiteAbout/Icon awesome-facebook-square.png" >
+              <img class="footerimg" src="AssetWebsiteAbout/Icon awesome-github.png">
+              <img class="footerimg" src="AssetWebsiteAbout/Icon awesome-google-play.png">
+              <img class="footerimg" src="AssetWebsiteAbout/Icon awesome-instagram.png">
+              <img class="footerimg" src="AssetWebsiteAbout/Icon awesome-twitter.png">
+          
+            </div>
+          </footer> 
+    </article>
+    
+   
+    
+</body>    
+ 
+
+</html>
+

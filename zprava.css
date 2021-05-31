@@ -1,0 +1,30 @@
+html
+{
+    background-color: #B4B4B4;
+}
+
+div.whitebox 
+{
+    width: 30%;
+    border: 2px solid black;
+    margin: auto;
+    padding: 8%;
+    background-color: white;
+    margin-top: 20%;
+
+    
+  }
+
+
+  div.text
+  {
+     text-align: center; 
+     font-size: 20px;
+  }
+
+
+div.button
+  {
+    position: absolute;
+    left: 49%;
+  }

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+    <head>
+        <meta charset="utf-8">
+        
+            <link rel="stylesheet" href="About.css" type="text/css" >
+            
+        <title>
+            <h1>Crazy_Game</h1>
+            <script>
+              <Headers />
+            </script>
+        </title>
+    </head>
+<body>
+    
+    <article>
+        <header>
+          <div class="pretekani"> 
+            <img src="AssetWebsite/LOGOWEB@2x.png" class="logo">
+             <h1>crazy game plus</h1>
+            </div>
+
+
+
+            <div class="scrollmenu">
+              <a href="index.html">Úvod</a>
+              <a href="About.html">Hry</a>
+              <a href="Contact.html">Kontakt</a> 
+              </div>
+        </header>
+
+        <section>
+            <div class="container">
+            <img src="AssetWebsiteAbout/Hlavnigrafika.png" class="hlavnigrafika">
+           
+            </div>
+            <div class="My_Games_Umisteni">
+                <p class="My_Games">My Games:</p>
+            </div>
+            
+            <div class="game">
+                <div class="center">
+                <div class="SpacePlane">
+                    
+                    <img src="AssetWebsiteAbout/logogame2.png"  onclick="document.getElementById('id02').style.display='block'"  class="SpacePlaneImg">
+                    <p class="SpacePlaneImgNazev">Space Plane</p>
+                    
+                </div>
+
+                <div class="CrazyCrab">
+                    <img src="AssetWebsiteAbout/hracrazycrab.png" onclick="document.getElementById('id01').style.display='block'"  class="crazycrabImg">
+                    <p class="CrazyCrabNazev">Crazy Crab: and his Adventures</p>
+
+
+
+                </div>
+                </div>
+
+
+            </div>
+
+            
+            
+            <div id="id01" class="modal">
+  
+                <form class="modal-content animate">
+                  <div class="imgcontainer">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    
+                  </div>
+              
+                  <div class="container">
+                    <div class="slideshow-container">
+                      <div class="mySlides2">
+                        <img src="AssetWebsiteAbout/Výstřižek12.PNG" style="width:100%">
+                      </div>
+                    
+                      <div class="mySlides2">
+                        <img src="AssetWebsiteAbout/Výstřižek52.PNG" style="width:100%">
+                      </div>
+                    
+                      <div class="mySlides2">
+                        <img src="AssetWebsiteAbout/Výstřižek.PNG" style="width:100%">
+                      </div>
+                    
+                      <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                      <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                    </div>
+                    
+                  </div>
+              
+                  <div class="container" style="background-color:#f1f1f1">
+                    <div class="odkazcrab">
+                   <a href="https://play.google.com/store/apps/details?id=com.DefaultCompany.Crazycrabandhisadventures">Crazy Crab: and his Adventures</a>
+                  </div>
+                  </div>
+                </form>
+              </div>
+
+              
+              
+              
+              <div id="id02" class="modal">
+  
+                <form class="modal-content animate" >
+                  <div class="imgcontainer">
+                    <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    
+                  </div>
+              
+                  <div class="container">
+                    <div class="slideshow-container">
+                      <div class="mySlides1">
+                        <img src="AssetWebsiteAbout/Výstřižek1.PNG" style="width:100%">
+                      </div>
+                    
+                      <div class="mySlides1">
+                        <img src="AssetWebsiteAbout/Výstřižek4.PNG" style="width:100%">
+                      </div>
+                    
+                      <div class="mySlides1">
+                        <img src="AssetWebsiteAbout/Výstřižek6.PNG" style="width:100%">
+                      </div>
+                    
+                      <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                      <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+                    </div>
+                    
+                  </div>
+              
+                  <div class="container" style="background-color:#f1f1f1">
+                    <div class="odkaznaplane">
+                      <a href="https://play.google.com/store/apps/details?id=com.DefaultCompany.SpacePlane">Space Plane</a>
+                     </div>
+                  </div>
+                </form>
+              </div>
+              
+        </section>
+    </article>
+   
+    
+
+
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById('id02', 'id01');
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+
+
+
+    }
+ }
+
+            
+        </script>
+
+
+
+<script>
+  var slideIndex = [1,1];
+  var slideId = ["mySlides1", "mySlides2"]
+  showSlides(1, 0);
+  showSlides(1, 1);
+  
+  function plusSlides(n, no) {
+    showSlides(slideIndex[no] += n, no);
+  }
+  
+  function showSlides(n, no) {
+    var i;
+    var x = document.getElementsByClassName(slideId[no]);
+    if (n > x.length) {slideIndex[no] = 1}    
+    if (n < 1) {slideIndex[no] = x.length}
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    x[slideIndex[no]-1].style.display = "block";  
+  }
+  </script>
+
+<footer>
+  <div class="footer" style="clear: both;">
+    <img class="footerimg" src="AssetWebsiteAbout/Icon awesome-facebook-square.png" >
+    <img class="footerimg" src="AssetWebsiteAbout/Icon awesome-github.png">
+    <img class="footerimg" src="AssetWebsiteAbout/Icon awesome-google-play.png">
+    <img class="footerimg" src="AssetWebsiteAbout/Icon awesome-instagram.png">
+    <img class="footerimg" src="AssetWebsiteAbout/Icon awesome-twitter.png">
+
+  </div>
+</footer> 
+
+
+</body>   
+
+ 
+
+</html>

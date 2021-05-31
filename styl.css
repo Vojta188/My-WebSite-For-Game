@@ -1,0 +1,246 @@
+
+  *
+  {
+    margin: 0px;
+    padding: 0px;
+  }
+
+ 
+
+  img.logo
+{
+  position: relative;
+  padding: 3px;
+  
+  width: 5%;
+  height: 5%;
+  float: left;
+
+}
+
+
+
+h1
+{
+  font-size: 40px;
+  position: relative;
+  top: 20px;
+  color: #2C2A2A;
+  cursor: pointer;
+  
+
+}
+  div.scrollmenu a {
+    position: relative;
+    left: 60%;
+    font-size:25px ;
+    
+    padding: 3%;
+    color: #000000;
+    text-shadow: 2px 2px 2px #707070;
+    
+    text-align: center;
+    
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    text-decoration-line: overline;
+    border: 10px;
+  }
+
+  html
+  {
+    background-color: #E9E7E7;
+  }
+
+  img.obrazek 
+ {
+   margin: 0px;
+   width: 100%;
+   position:absolute;
+   height: 50%;
+   bottom:0%;
+   clear: both;
+   
+
+ }
+
+
+
+.button-games {
+  position: absolute;
+  bottom: 30%;
+  left: 15%;
+  padding: 30px 100px;
+  background-color: #07B56E;
+  opacity: 94%;
+  color: white;
+  font-size: 30px ;
+  border-radius: 10px;
+  box-shadow: 1px 3px #707070;
+  font-family: Segoe UI Symbol;
+
+  opacity: 0.6;
+display: inline-block;
+text-decoration: none;
+cursor: pointer;
+transition: 0.4s;
+  
+}
+
+.button-games:hover
+{
+ opacity: 1;
+}
+
+.moto
+{
+  position: absolute;
+  bottom: 50%;
+  left: 15%;
+  font-size: 90px;
+  font-family: Ebrima;
+  font-weight: 900;
+  color: #404040;
+  text-shadow: -10px 30px 10PX #BFB4B4;
+  
+}
+
+section
+{
+  clear: both;
+}
+
+
+
+div.footer
+{
+  position: absolute;
+  top: 80%;
+  padding: 2%;
+  left: 20%;
+  float: left;
+
+}
+
+img.footerimg
+{
+  
+  cursor: pointer;
+  
+}
+
+
+a.buttongames
+{
+  text-decoration: none;
+}
+
+@media only screen and (max-device-width : 720px) {
+  /* For mobile phones: */
+  div.scrollmenu a {
+    position: relative;
+    left: 40%;
+    font-size:45px ;
+    
+    padding: 3%;
+    color: #000000;
+    text-shadow: 2px 2px 2px #707070;
+    
+    text-align: center;
+    
+    text-decoration: none;
+  } 
+
+
+  img.logo
+  {
+    position: relative;
+    padding: 3px;
+    
+    width: 20%;
+    height: 20%;
+    float: left;
+  
+  }
+  
+  
+  
+  h1
+  {
+    font-size: 70px;
+    position: relative;
+    top: 20px;
+    color: #2C2A2A;
+    cursor: pointer;
+    
+  
+  }
+  img.obrazek 
+ {
+   margin: 0px;
+   width: 100%;
+   position:absolute;
+   height: 400px ;
+   top: 100%;
+   
+   clear: both;
+   
+
+ }
+
+ .button-games {
+  position: absolute;
+  
+  bottom: 30%;
+  left: 15%;
+  padding: 70px 150px;
+  background-color: #07B56E;
+  opacity: 94%;
+  color: white;
+  font-size: 50px ;
+  border-radius: 10px;
+  box-shadow: 1px 3px #707070;
+  font-family: Segoe UI Symbol;
+
+  opacity: 0.6;
+display: inline-block;
+text-decoration: none;
+cursor: pointer;
+transition: 0.4s;
+  
+}
+
+
+.moto
+{
+  position: absolute;
+  bottom: 50%;
+  left: 15%;
+  font-size: 120px;
+  font-family: Ebrima;
+  font-weight: 900;
+  color: #404040;
+  text-shadow: -10px 30px 10PX #BFB4B4;
+  
+}
+
+
+div.footer
+{
+  position: absolute;
+  top: 100%;
+  padding: 2%;
+  left: 20%;
+  float: left;
+
+}
+img.footerimg
+{
+ width: 60px;
+ height: 60px; 
+  cursor: pointer;
+  
+}
+}
